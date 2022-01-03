@@ -290,3 +290,5 @@ class App {
   }
 }
 const app = new App();
+
+document.querySelector(`.reset`).addEventListener(`click`,app.reset)
